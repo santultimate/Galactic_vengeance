@@ -1,0 +1,17 @@
+{
+  "sounds": {
+    "button_click": "assets/audio/sounds/button_click.mp3",
+    "shoot": "assets/audio/sounds/shoot.mp3",
+    "explosion": "assets/audio/sounds/explosion.mp3",
+    "powerup": "assets/audio/sounds/powerup.mp3",
+    "coin": "assets/audio/sounds/coin.mp3",
+    "game_over": "assets/audio/sounds/game_over.mp3",
+    "victory": "assets/audio/sounds/victory.mp3",
+    "boss": "assets/audio/sounds/boss.mp3"
+  },
+  "music": {
+    "background": "assets/audio/music/background_music.mp3",
+    "menu": "assets/audio/music/menu_music.mp3",
+    "boss": "assets/audio/music/boss_music.mp3"
+  }
+}

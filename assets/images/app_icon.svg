@@ -1,0 +1,52 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ship" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cc66;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="engine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  
+  <!-- Stars -->
+  <circle cx="200" cy="200" r="2" fill="white" opacity="0.8"/>
+  <circle cx="800" cy="150" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="150" cy="800" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="900" cy="900" r="1" fill="white" opacity="0.5"/>
+  <circle cx="400" cy="300" r="1.8" fill="white" opacity="0.9"/>
+  <circle cx="600" cy="700" r="2.2" fill="white" opacity="0.8"/>
+  
+  <!-- Spaceship body -->
+  <ellipse cx="512" cy="600" rx="120" ry="60" fill="url(#ship)"/>
+  
+  <!-- Spaceship cockpit -->
+  <ellipse cx="512" cy="580" rx="40" ry="25" fill="#00aaff"/>
+  <ellipse cx="512" cy="580" rx="30" ry="20" fill="#0088cc"/>
+  
+  <!-- Engine flames -->
+  <ellipse cx="512" cy="660" rx="80" ry="40" fill="url(#engine)"/>
+  <ellipse cx="512" cy="680" rx="60" ry="30" fill="#ff3300"/>
+  <ellipse cx="512" cy="700" rx="40" ry="20" fill="#ff6600"/>
+  
+  <!-- Wings -->
+  <polygon points="392,580 332,520 352,500 412,560" fill="url(#ship)"/>
+  <polygon points="632,580 692,520 672,500 612,560" fill="url(#ship)"/>
+  
+  <!-- Laser beams -->
+  <rect x="502" y="520" width="20" height="60" fill="#ffff00"/>
+  <rect x="502" y="480" width="20" height="40" fill="#ffaa00"/>
+  
+  <!-- Title text -->
+  <text x="512" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">GALACTIC</text>
+  <text x="512" y="260" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#00ff88">VENGEANCE</text>
+</svg>

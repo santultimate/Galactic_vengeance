@@ -1,0 +1,36 @@
+# Configuration des tailles d'images pour Galactic Vengeance
+
+## Sprites
+player_ship: 64x64
+enemy_basic: 48x48
+enemy_advanced: 48x48
+enemy_elite: 48x48
+asteroid_small: 32x32
+asteroid_medium: 32x32
+asteroid_large: 48x48
+powerup_shield: 24x24
+powerup_rapid_fire: 24x24
+powerup_laser: 24x24
+powerup_speed: 24x24
+powerup_magnet: 24x24
+boss_basic: 128x128
+boss_advanced: 128x128
+boss_elite: 128x128
+boss_final: 128x128
+
+## Backgrounds
+space_bg_1: 1024x1024
+space_bg_2: 1024x1024
+space_bg_3: 1024x1024
+
+## Effects
+explosion: 64x64
+particles: 16x16
+laser_beam: 32x128
+
+## UI
+button: 128x64
+icon_play: 32x32
+icon_pause: 32x32
+icon_settings: 32x32
+icon_shop: 32x32
